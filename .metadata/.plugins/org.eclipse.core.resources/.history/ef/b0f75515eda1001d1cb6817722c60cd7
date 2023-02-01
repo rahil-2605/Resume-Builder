@@ -1,0 +1,18 @@
+package com.tyss.rb.controller;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.tyss.rb.dto.UserDto;
+import com.tyss.rb.response.AppResponse;
+
+@RestController
+public class RegisterController {
+	
+	public ResponseEntity<AppResponse> addUser(@RequestBody UserDto){
+		
+	}
+	
+
+}

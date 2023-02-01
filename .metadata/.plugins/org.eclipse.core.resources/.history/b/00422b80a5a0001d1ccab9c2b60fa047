@@ -1,0 +1,19 @@
+package com.tyss.rb.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class Summary {
+	
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Integer summaryId;
+	
+	private String summaryDetails;
+	
+
+}

@@ -1,0 +1,8 @@
+package com.tyss.rb.advice;
+
+public class SomethingWentWrongException {
+	
+	
+	
+
+}

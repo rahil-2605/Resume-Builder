@@ -1,0 +1,5 @@
+package com.tyss.rb.dto;
+
+public class ProfileDto {
+
+}

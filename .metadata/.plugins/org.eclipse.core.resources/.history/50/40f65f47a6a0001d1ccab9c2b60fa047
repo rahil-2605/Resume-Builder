@@ -1,0 +1,23 @@
+package com.tyss.rb.entity;
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+public class EducationDetails {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Integer educationId;
+	
+	private String education;
+		
+	private String specialization;
+	
+	private String university;
+	
+	private Integer yop;
+	
+	private Double percentage;
+
+}

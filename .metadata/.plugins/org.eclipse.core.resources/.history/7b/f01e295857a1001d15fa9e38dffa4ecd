@@ -1,0 +1,12 @@
+package com.tyss.rb.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@AllArgsConstructor
+@Data
+public class SummaryDto {
+	private String summaryDetails;
+
+
+}

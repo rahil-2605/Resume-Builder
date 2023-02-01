@@ -1,0 +1,5 @@
+package com.tyss.rb.serviceimpl;
+
+public class UserService {
+
+}

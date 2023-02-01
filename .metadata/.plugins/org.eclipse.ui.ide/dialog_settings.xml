@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="org.eclipse.buildship:3.1.6.v20220511-1359"/>
+		<item value="org.eclipse.eclemma.feature:3.1.6.202206011447"/>
+		<item value="org.eclipse.egit.gitflow.feature:6.4.0.202211300538-r"/>
+		<item value="org.eclipse.egit:6.4.0.202211300538-r"/>
+		<item value="org.eclipse.emf.common:2.28.0.v20221121-1400"/>
+		<item value="org.eclipse.emf.ecore:2.30.0.v20221121-1400"/>
+		<item value="org.eclipse.epp.mpc:1.10.1.v20221110-1841"/>
+		<item value="org.eclipse.help:2.3.1200.v20221123-1800"/>
+		<item value="org.eclipse.jdt:3.18.1400.v20221123-1800"/>
+		<item value="org.eclipse.jgit.gpg.bc:6.4.0.202211300538-r"/>
+		<item value="org.eclipse.jgit.http.apache:6.4.0.202211300538-r"/>
+		<item value="org.eclipse.jgit.lfs:6.4.0.202211300538-r"/>
+		<item value="org.eclipse.jgit.ssh.apache:6.4.0.202211300538-r"/>
+		<item value="org.eclipse.jgit:6.4.0.202211300538-r"/>
+		<item value="org.eclipse.jst.common.fproj.enablement.jdt:3.27.0.v202208260526"/>
+		<item value="org.eclipse.jst.enterprise_ui.feature:3.28.0.v202209230232"/>
+		<item value="org.eclipse.justj.openjdk.hotspot.jre.full:17.0.5.v20221102-0933"/>
+		<item value="org.eclipse.m2e.feature:2.1.2.20221130-2239"/>
+		<item value="org.eclipse.m2e.logback.feature:2.1.0.20221015-0744"/>
+		<item value="org.eclipse.m2e.wtp.feature:1.5.2.20220906-1452"/>
+		<item value="org.eclipse.mylyn.wikitext.editors_feature:3.0.45.202211090110"/>
+		<item value="org.eclipse.pde:3.14.1400.v20221123-1800"/>
+		<item value="org.eclipse.platform:4.26.0.v20221123-2302"/>
+		<item value="org.eclipse.rcp:4.26.0.v20221123-2302"/>
+		<item value="org.eclipse.tm.terminal.connector.ssh.feature:11.0.0.202211062329"/>
+		<item value="org.eclipse.tm.terminal.control.feature:11.0.0.202211062329"/>
+		<item value="org.eclipse.tm.terminal.feature:11.0.0.202210031642"/>
+		<item value="org.eclipse.tm.terminal.view.feature:11.0.0.202211062329"/>
+		<item value="org.eclipse.userstorage:1.2.0.v20210517-0327"/>
+		<item value="org.eclipse.wst.common.fproj:3.7.3.v202111212041"/>
+		<item value="org.eclipse.wst.json_ui.feature:1.1.10.v202211200019"/>
+		<item value="org.eclipse.wst.web_ui.feature:3.28.0.v202211200019"/>
+		<item value="org.eclipse.wst.xml_ui.feature:3.28.0.v202211200019"/>
+		<item value="org.jboss.tools.m2e.wro4j.feature:1.2.0.202209071019"/>
+		<item value="org.sonatype.m2e.egit.feature:0.17.0.202209271423"/>
+	</list>
+</section>

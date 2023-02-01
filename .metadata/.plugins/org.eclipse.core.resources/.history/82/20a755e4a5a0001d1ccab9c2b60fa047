@@ -1,0 +1,7 @@
+package com.tyss.rb.entity;
+
+public class EducationDetails {
+	
+	private Integer IneducationalDetailsId;
+
+}

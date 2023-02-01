@@ -1,0 +1,55 @@
+package com.tyss.rb.entity;
+
+import java.util.List;
+
+import javax.persistence.Column;
+import javax.persistence.ElementCollection;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToOne;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Entity
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class Skills {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Integer skillsId;
+
+	@Column(name = "front_end_tech")
+	@ElementCollection
+	private List<String> frontEndTech;
+
+	@Column(name = "back_end_tech")
+	private List<String> backEndTech;
+
+	@Column(name = "middleware_tech")
+	private List<String> middlewareTech;
+
+	@Column(name = "design_patterns")
+	private List<String> designPatterns;
+
+	private List<String> databases;
+
+	@Column(name = "version_control_system")
+	private List<String> versionControlSys;
+
+	private List<String> aws;
+
+	@Column(name = "development_tools")
+	private List<String> developmentTools;
+
+	@OneToOne
+	private Profile profile;
+
+}

@@ -1,0 +1,31 @@
+package com.tyss.rb.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.tyss.rb.dto.ProfileDto;
+import com.tyss.rb.response.AppResponse;
+import com.tyss.rb.service.UserService;
+
+@RestController
+public class UserController {
+
+	@Autowired
+	private AppResponse response;
+	
+	@Autowired
+	private UserService userService;
+	
+	@PostMapping(path="/addDetails")
+	public ResponseEntity<AppResponse> addAllDetails(@RequestBody ProfileDto profileDto){
+		
+		Object data=userService.addAllDetails(profileDto);
+		return ;
+		
+		
+		
+	}
+}

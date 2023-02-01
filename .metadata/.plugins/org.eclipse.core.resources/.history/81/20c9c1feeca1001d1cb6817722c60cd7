@@ -1,0 +1,10 @@
+package com.tyss.rb.dto;
+
+public class UserDto {
+	private String username;
+
+	private String password;
+
+	private String email;
+
+}

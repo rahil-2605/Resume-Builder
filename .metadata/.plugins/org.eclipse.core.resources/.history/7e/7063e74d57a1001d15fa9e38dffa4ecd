@@ -1,0 +1,7 @@
+package com.tyss.rb.dto;
+
+public class SummaryDto {
+	private String summaryDetails;
+
+
+}

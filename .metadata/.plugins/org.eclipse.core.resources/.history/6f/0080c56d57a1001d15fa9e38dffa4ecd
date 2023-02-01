@@ -1,0 +1,18 @@
+package com.tyss.rb.dto;
+
+import lombok.Data;
+
+@Data
+public class EducationDetailsDto {
+
+	private String education;
+
+	private String specialization;
+
+	private String university;
+
+	private Integer yop;
+
+	private Double percentage;
+
+}

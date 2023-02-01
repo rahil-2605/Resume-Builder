@@ -1,0 +1,23 @@
+package com.tyss.rb.entity;
+
+import java.util.List;
+
+import javax.persistence.Column;
+
+public class AchievementDetails {
+	
+	
+	@Column(name = "front_end_tech")
+	private List<String> projectFrontEndTech;
+
+	@Column(name = "back_end_tech")
+	private List<String> projectBackEndTech;
+
+	@Column(name = "design_patterns")
+	private List<String> projectDesignPatterns;
+
+	@Column(name = "database")
+	private List<String> projectDatabase;
+
+
+}

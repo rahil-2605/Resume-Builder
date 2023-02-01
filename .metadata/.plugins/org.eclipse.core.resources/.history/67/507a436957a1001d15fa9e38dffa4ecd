@@ -1,0 +1,11 @@
+package com.tyss.rb.dto;
+
+import java.util.List;
+
+import lombok.Data;
+
+@Data
+public class AchievementDetailsDto {
+	private List<String> achievements;
+
+}

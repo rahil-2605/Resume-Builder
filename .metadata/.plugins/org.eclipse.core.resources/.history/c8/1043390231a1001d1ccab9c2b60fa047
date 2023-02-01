@@ -1,0 +1,11 @@
+package com.tyss.rb.response;
+
+import org.springframework.stereotype.Component;
+
+	
+@Component
+public class AppResponse {
+	private String message;
+	private Integer status;
+
+}

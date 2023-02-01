@@ -1,0 +1,11 @@
+package com.tyss.rb.service;
+
+import org.springframework.stereotype.Service;
+
+import com.tyss.rb.dto.ProfileDto;
+
+public interface UserService {
+
+	public Object addAllDetails(ProfileDto profileDto);
+
+}

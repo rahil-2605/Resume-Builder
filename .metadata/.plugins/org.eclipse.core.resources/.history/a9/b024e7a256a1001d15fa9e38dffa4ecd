@@ -1,0 +1,8 @@
+package com.tyss.rb.dto;
+
+import java.util.List;
+
+public class AchievementDetailsDto {
+	private List<String> achievements;
+
+}

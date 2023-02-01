@@ -1,0 +1,10 @@
+package com.tyss.rb.exception;
+
+public class SomethingWentWrongException {
+	
+	public somethingWentWrongException(String message) {
+		super(message);
+	}
+	
+
+}

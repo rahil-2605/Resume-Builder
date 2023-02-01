@@ -1,0 +1,5 @@
+package com.tyss.rb.controller;
+
+public class RegisterController {
+
+}

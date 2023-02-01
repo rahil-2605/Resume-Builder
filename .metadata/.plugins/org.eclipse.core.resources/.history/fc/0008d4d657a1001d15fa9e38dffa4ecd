@@ -1,0 +1,33 @@
+package com.tyss.rb.dto;
+
+import java.util.List;
+
+import com.tyss.rb.entity.AchievementDetails;
+import com.tyss.rb.entity.EducationDetails;
+import com.tyss.rb.entity.ProjectDetails;
+import com.tyss.rb.entity.Skills;
+import com.tyss.rb.entity.Summary;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Setter
+@Getter
+public class ProfileDto {
+
+	private String firstName;
+	private String lastName;
+	private List<String> technology;
+	private String totalExperience;
+	private String relevantExperience;
+	private List<Summary> summary;
+	private Skills skills;
+	private List<EducationDetails> educationDetailsList;
+	private List<ProjectDetails> projectDetails;
+	private AchievementDetails achievementDetails;
+
+}

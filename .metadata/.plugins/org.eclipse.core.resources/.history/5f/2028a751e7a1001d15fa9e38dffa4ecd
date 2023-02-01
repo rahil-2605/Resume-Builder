@@ -1,0 +1,5 @@
+package com.tyss.rb.exception;
+
+public class ResumeDetailsNotFound extends RuntimeException{
+
+}

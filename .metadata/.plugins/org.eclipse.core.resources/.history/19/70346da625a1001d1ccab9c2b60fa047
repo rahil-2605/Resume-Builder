@@ -1,0 +1,66 @@
+package com.tyss.rb.entity;
+
+import java.util.List;
+
+import javax.persistence.CollectionTable;
+import javax.persistence.Column;
+import javax.persistence.ElementCollection;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Entity
+@Setter
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
+public class ProjectDetails {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "id")
+	private Integer projectId;
+
+	@ElementCollection
+	@CollectionTable(name = "project_front_end_tech", joinColumns = @JoinColumn(name = "project_id"))
+	private List<String> projectFrontEndTech;
+
+	@ElementCollection
+	@CollectionTable(name = "project_back_end_tech", joinColumns = @JoinColumn(name = "project_id"))
+	private List<String> projectBackEndTech;
+
+	@ElementCollection
+	@CollectionTable(name = "project_design_patterns", joinColumns = @JoinColumn(name = "project_id"))
+	private List<String> projectDesignPatterns;
+
+	@ElementCollection
+	
+	private List<String> projectDatabases;
+
+	@ElementCollection
+	private List<String> projectDevlopmentTools;
+
+	@Column(name = "duration")
+	private String projectDuration;
+
+	@Column(name = "project_team_size")
+	private Integer projectTeamSize;
+
+	@Column(name = "description")
+	private String projectDescription;
+
+	@Column(name = "roles_and_responsibilities")
+	private String projectRolesAndResponsibilities;
+	
+	@ManyToOne
+	private Profile profile;
+
+}

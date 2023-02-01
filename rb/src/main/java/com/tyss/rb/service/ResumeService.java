@@ -1,0 +1,14 @@
+package com.tyss.rb.service;
+
+import com.tyss.rb.dto.ProfileDto;
+import com.tyss.rb.dto.UserDto;
+
+public interface ResumeService {
+
+	public Object addAllDetails(ProfileDto profileDto);
+
+	public ProfileDto getAllDetails(Integer id);
+
+	public UserDto addUser(UserDto userDto);
+
+}

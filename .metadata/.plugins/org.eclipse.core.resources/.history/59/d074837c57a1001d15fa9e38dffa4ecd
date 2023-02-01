@@ -1,0 +1,19 @@
+package com.tyss.rb.dto;
+
+import java.util.List;
+
+import lombok.Data;
+
+@Data
+public class ProjectDetailsDto {
+	private List<String> projectFrontEndTech;
+	private List<String> projectBackEndTech;
+	private List<String> projectDesignPatterns;
+	private List<String> projectDatabases;
+	private List<String> projectDevlopmentTools;
+	private String projectDuration;
+	private Integer projectTeamSize;
+	private String projectDescription;
+	private String projectRolesAndResponsibilities;
+
+}

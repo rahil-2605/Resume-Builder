@@ -1,0 +1,36 @@
+package com.tyss.rb.entity;
+
+import java.util.List;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class ProjectDetails {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Integer projectId;
+
+	@Column(name = "front_end_tech")
+	private List<String> projectFrontEndTech;
+
+	@Column(name = "back_end_tech")
+	private List<String> projectBackEndTech;
+
+	@Column(name = "design_patterns")
+	private List<String> projectDesignPatterns;
+
+	@Column(name = "database")
+	private List<String> projectDatabase;
+
+	@Column(name = "devlopment_tools")
+	private List<String> projectDevlopmentTools;
+	
+	@Column(name="duration")
+	private String projectDuration;
+
+}

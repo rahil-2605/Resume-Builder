@@ -1,0 +1,5 @@
+package com.tyss.rb.repository;
+
+public interface ProfileRepository {
+
+}

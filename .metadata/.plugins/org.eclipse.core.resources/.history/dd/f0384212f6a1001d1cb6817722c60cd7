@@ -1,0 +1,5 @@
+package com.tyss.rb.config;
+
+public class SecurityConfig {
+
+}

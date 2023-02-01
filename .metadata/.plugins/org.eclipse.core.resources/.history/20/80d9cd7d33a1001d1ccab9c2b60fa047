@@ -1,0 +1,9 @@
+package com.tyss.rb.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.tyss.rb.entity.Skills;
+
+public interface SkillsRepository extends JpaRepository<Skills, Integer> {
+
+}

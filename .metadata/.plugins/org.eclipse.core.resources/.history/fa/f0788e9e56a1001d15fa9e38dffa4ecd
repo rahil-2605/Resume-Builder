@@ -1,0 +1,15 @@
+package com.tyss.rb.dto;
+
+public class EducationDetailsDto {
+	
+	private String education;
+
+	private String specialization;
+
+	private String university;
+
+	private Integer yop;
+
+	private Double percentage;
+	
+}

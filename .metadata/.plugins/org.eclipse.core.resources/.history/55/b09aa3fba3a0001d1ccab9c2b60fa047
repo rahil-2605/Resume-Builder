@@ -1,0 +1,5 @@
+package com.tyss.rb.entity;
+
+public class AchievementDetails {
+
+}

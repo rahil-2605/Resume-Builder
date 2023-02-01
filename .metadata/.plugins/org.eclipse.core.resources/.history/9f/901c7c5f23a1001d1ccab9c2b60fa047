@@ -1,0 +1,63 @@
+package com.tyss.rb.entity;
+
+import java.util.List;
+
+import javax.persistence.Column;
+import javax.persistence.ElementCollection;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Entity
+@Setter
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
+public class ProjectDetails {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "id")
+	private Integer projectId;
+
+	@Column(name = "front_end_tech")
+	@ElementCollection
+	private List<String> projectFrontEndTech;
+
+	@Column(name = "back_end_tech")
+	@ElementCollection
+	private List<String> projectBackEndTech;
+
+	@ElementCollection
+	private List<String> projectDesignPatterns;
+
+	@ElementCollection
+	private List<String> projectDatabases;
+
+	@Column(name = "devlopment_tools")
+	@ElementCollection
+	private List<String> projectDevlopmentTools;
+
+	@Column(name = "duration")
+	private String projectDuration;
+
+	@Column(name = "project_team_size")
+	private Integer projectTeamSize;
+
+	@Column(name = "description")
+	private String projectDescription;
+
+	@Column(name = "roles_and_responsibilities")
+	private String projectRolesAndResponsibilities;
+	
+	@ManyToOne
+	private Profile profile;
+
+}

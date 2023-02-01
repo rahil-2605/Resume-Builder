@@ -1,0 +1,20 @@
+package com.tyss.rb.advice;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+import com.tyss.rb.exception.ResumeDetailsNotFound;
+import com.tyss.rb.response.AppResponse;
+
+@RestControllerAdvice
+public class ResumeExceptionHandler {
+	@Autowired
+	private AppResponse appResponse;
+	
+	public ResponseEntity<AppResponse> resumeDetailsNotFound(ResumeDetailsNotFound ex){
+		
+	}
+	
+
+}

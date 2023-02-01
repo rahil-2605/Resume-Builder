@@ -1,0 +1,7 @@
+package com.tyss.rb.serviceimpl;
+
+import org.springframework.security.core.userdetails.UserDetailsService;
+
+public class UserService implements UserDetailsService {
+
+}
